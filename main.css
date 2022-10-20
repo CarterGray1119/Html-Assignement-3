@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header {
+    background-color: gray;
+}
+footer {
+    background-color: gray;
+}
+.Name {
+    color: white;
+}
+.Container {
+    box-shadow: 0px 0px 2px 1px;
+    
+    
+}
+
+ul {
+    list-style-type: square;
+}
+.Sports:nth-child(1) {
+    background-color: lightcoral;
+}
+.Sports:nth-child(2) {
+    background-color: lightblue;
+}
+nav li {
+    display: inline;
+    color: green;
+}
+nav {
+    position: relative;
+    top: 3px;
+    right: 20px;
+    
+}
+.Outline {
+outline-style: solid;
+outline-width: 5px;
+}
+a {
+    display: inline-block;
+    background-color: grey;
+    width: 120px;
+    height: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+ a:hover {
+        color: orange;
+ }
